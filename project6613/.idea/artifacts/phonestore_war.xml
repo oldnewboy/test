@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="phonestore:war">
+    <output-path>$PROJECT_DIR$/phonestore/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>phonestore</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="phonestore-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="phonestore:war exploded" />
+    </root>
+  </artifact>
+</component>
